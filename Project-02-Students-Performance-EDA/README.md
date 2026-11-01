@@ -1,4 +1,4 @@
-# Students Performance – Exploratory Data Analysis
+# Project 2 – Students Performance EDA
 
 This project explores the **Students Performance in Exams** dataset using Python.
 
