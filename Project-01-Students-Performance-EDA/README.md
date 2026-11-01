@@ -25,4 +25,3 @@ The notebook expects the Kaggle **Students Performance in Exams** dataset file n
 ## Run
 Open `students_performance_eda.ipynb` in Jupyter Notebook or JupyterLab and run the cells from top to bottom.
 
-*Note: The notebook is shared without saved cell outputs; run it to regenerate the tables and charts.*
