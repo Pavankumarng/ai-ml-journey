@@ -33,17 +33,9 @@ These are descriptive findings from this dataset. They show patterns and associa
 
 **The dataset is included in this folder. You do not need to download it separately from Kaggle.** Keep the notebook and CSV file in the same directory.
 
-## Run the project
+## Explore the Project
 
-1. Clone or download this project folder.
-2. Install the required libraries if they are not already installed:
-
-   ```bash
-   pip install pandas numpy matplotlib seaborn jupyter
-   ```
-
-3. Open `students_performance_eda.ipynb` in Jupyter Notebook or JupyterLab.
-4. Run the notebook cells from top to bottom.
+Explore the Jupyter Notebook to view the complete data analysis, visualizations, and key findings.
 
 ## Skills demonstrated
 
