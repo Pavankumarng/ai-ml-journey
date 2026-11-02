@@ -29,7 +29,7 @@ These are descriptive findings from this dataset. They show patterns and associa
 ## Project files
 
 - `students_performance_eda.ipynb` — the analysis notebook
-- `StudentsPerformance.csv.gz` — the dataset supplied with this project in compressed CSV format
+- `StudentsPerformance.csv` — the dataset supplied with this project in CSV format
 
 **The dataset is included in this folder. You do not need to download it separately from Kaggle.** Keep the notebook and compressed CSV file in the same directory. The notebook reads the compressed CSV directly.
 
