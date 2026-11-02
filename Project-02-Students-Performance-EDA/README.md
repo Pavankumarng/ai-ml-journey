@@ -1,27 +1,50 @@
 # Project 2 – Students Performance EDA
 
-This project explores the **Students Performance in Exams** dataset using Python.
+A completed exploratory data analysis (EDA) project using the **Students Performance in Exams** dataset. The analysis uses Python to explore score distributions, compare student groups and examine relationships among Mathematics, Reading and Writing scores.
 
-## What I explored
-- Dataset structure and data quality
-- Summary statistics and categorical distributions
-- Score distributions and boxplots
-- Correlations between Mathematics, Reading and Writing
-- Average scores by test preparation course and parental education
+## Project at a glance
 
-## Key observations
-- Reading had the highest average score (69.17).
-- Reading and Writing had the strongest positive correlation (0.95).
-- Students who completed test preparation had higher average scores in all three subjects.
-- The master's-degree parental education group had the highest average scores across the three subjects.
-- Writing scores had the highest standard deviation (15.20).
+- **Dataset:** 1,000 student records and 8 columns
+- **Data quality:** No missing values in the supplied dataset
+- **Main tools:** Python, Pandas, NumPy, Matplotlib and Seaborn
+- **Notebook:** `students_performance_eda.ipynb`
 
-## Tools
-Python, Pandas, NumPy, Matplotlib and Seaborn.
+## What the analysis covers
 
-## Dataset
-The notebook expects the Kaggle **Students Performance in Exams** dataset file named `StudentsPerformance.csv` in the same folder as the notebook. Download the dataset from Kaggle and place the CSV there before running the notebook.
+- Dataset structure, data types and summary statistics
+- Distribution of Mathematics, Reading and Writing scores
+- Comparison of scores across student and family-background categories
+- Relationships between the three subject scores
+- Score differences by test-preparation status and parental education
 
-## Run
-Open `students_performance_eda.ipynb` in Jupyter Notebook or JupyterLab and run the cells from top to bottom.
+## Selected findings
 
+- Reading had the highest overall average score (**69.17**), followed by Writing (**68.05**) and Mathematics (**66.09**).
+- Reading and Writing had the strongest positive correlation (**r = 0.955**).
+- Students in the test-preparation-completed group had higher average scores in all three subjects than students in the group with no test preparation.
+- The master's-degree parental-education group had the highest average score in each of the three subjects in this dataset.
+
+These are descriptive findings from this dataset. They show patterns and associations; they do not establish that any one factor caused a change in scores.
+
+## Project files
+
+- `students_performance_eda.ipynb` — the analysis notebook
+- `StudentsPerformance.csv.gz` — the dataset supplied with this project in compressed CSV format
+
+**The dataset is included in this folder. You do not need to download it separately from Kaggle.** Keep the notebook and compressed CSV file in the same directory. The notebook reads the compressed CSV directly.
+
+## Run the project
+
+1. Clone or download this project folder.
+2. Install the required libraries if they are not already installed:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
+
+3. Open `students_performance_eda.ipynb` in Jupyter Notebook or JupyterLab.
+4. Run the notebook cells from top to bottom.
+
+## Skills demonstrated
+
+Data loading, data inspection, exploratory analysis, descriptive statistics, group-wise comparisons, correlation analysis and data visualization.
